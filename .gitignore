@@ -1,0 +1,16 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore training script and log
+run_background_train.sh
+train_log.txt
+
+# Ignore model files
+hai_text/data/model_v1.pt
+
+# Ignore macOS specific files
+.DS_Store
